@@ -348,7 +348,7 @@ hosbitals = {
 
 //get coords
 navigator.geolocation.getCurrentPosition(success, error);
-let coords = [31.378899557661057, 31.033771738768507];
+//let coords = [31.378899557661057, 31.033771738768507];
 // // lat
 // :
 // 31.378899557661057
@@ -356,7 +356,7 @@ let coords = [31.378899557661057, 31.033771738768507];
 // :
 // 31.033771738768507
 function success(position) {
-  // coords = [position.coords.longitude, position.coords.latitude];
+   coords = [position.coords.longitude, position.coords.latitude];
   renderMap(coords);
 }
 
